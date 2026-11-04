@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI-detektorer: går de att lita på, även på svenska? | aiguide.se</title>
+<meta name="description" content="Så fungerar en AI-detektor, varför ett högt procenttal inte är ett bevis, hur det går på svensk text och vad du gör som lärare eller om du blir anklagad.">
+<link rel="canonical" href="https://aiguide.se/ai-detektorer/">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="preload" href="/fonts/SF-Pro-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/fonts/fonts.css">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Till innehållet</a>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="Aiguide – startsida"><img src="/assets/logo.svg" alt="Aiguide" width="87" height="26"></a>
+    <nav class="site-nav" aria-label="Huvudmeny">
+      <a href="/">Start</a>
+      <a href="/vad-ar-ai/">Vad är AI</a>
+      <a href="/chatgpt-pa-svenska/">ChatGPT</a>
+      <a href="/kom-igang/">Kom igång</a>
+      <a href="/guider/" aria-current="page">Guider</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+
+    <section class="hero">
+      <p class="eyebrow">Praktisk guide</p>
+      <h1>AI-detektorer</h1>
+      <p class="lede">
+        En AI-detektor ger en uppskattning av hur AI-lik en text är. Den kan inte visa vem som
+        skrev texten. Det är skillnaden mellan en bra varningssignal och ett dåligt bevis.
+      </p>
+    </section>
+
+    <h2>Kort svar</h2>
+    <p>
+      Moderna detektorer har ofta rätt på längre texter, men de har också fel, och du kan inte se
+      på ett enskilt resultat vilket av fallen du har framför dig. Använd dem som ett skäl att
+      titta närmare, aldrig som ensamt underlag för att anklaga någon.
+    </p>
+    <p>
+      Skolverket skriver att
+      <a href="https://www.skolverket.se/kompetensutveckling/stod-i-arbetet/rad-om-ai-chattbottar-och-liknande-verktyg" rel="noopener">det inte finns några säkra sätt</a>
+      att avgöra om en text är skriven av AI. Det är den rimliga utgångspunkten, oavsett vilket
+      verktyg du använder.
+    </p>
+
+    <h2>Vad en detektor faktiskt mäter</h2>
+    <p>
+      En språkmodell skriver genom att gång på gång välja ett sannolikt nästa ord. Det ger text med
+      vissa statistiska drag: jämn meningslängd, förutsägbara ordval och få överraskningar.
+      Detektorn är själv en tränad modell som har sett många exempel på AI-text och mänsklig text,
+      och som bedömer vilken grupp din text liknar mest.
+    </p>
+    <p>
+      Det finns alltså ingen dold vattenstämpel som verktyget läser av, och inget register över
+      allt som ChatGPT har skrivit. Resultatet är en bedömning av stil. Därför kan två verktyg ge
+      helt olika svar på samma text, och samma text kan få ett annat svar efter en liten omskrivning.
+    </p>
+
+    <h3>AI-kontroll är inte plagiatkontroll</h3>
+    <p>
+      De två blandas ofta ihop, men de arbetar helt olika.
+    </p>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th></th><th>Plagiatkontroll</th><th>AI-detektor</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Frågan</td>
+            <td>Finns den här texten redan någon annanstans?</td>
+            <td>Liknar den här texten det en AI brukar skriva?</td>
+          </tr>
+          <tr>
+            <td>Metod</td>
+            <td>Jämför mot en samling befintliga texter</td>
+            <td>Bedömer stil och statistiska mönster</td>
+          </tr>
+          <tr>
+            <td>Resultat</td>
+            <td>Pekar ut källan, så att du kan kontrollera själv</td>
+            <td>En siffra eller markering, utan källa att gå tillbaka till</td>
+          </tr>
+          <tr>
+            <td>Går att kontrollera?</td>
+            <td>Ja, du kan lägga texterna bredvid varandra</td>
+            <td>Sällan, det finns inget att jämföra med</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>Hur tillförlitliga är de?</h2>
+    <p>
+      Svaret har ändrats över tid, och forskarna är inte helt överens. Här är några punkter som
+      ramar in frågan.
+    </p>
+    <ul>
+      <li><strong>OpenAI gav upp sin egen detektor.</strong> Verktyget lanserades i januari 2023 och
+          lades ner i juli samma år på grund av låg träffsäkerhet. Vid lanseringen uppgav OpenAI att
+          det hittade 26 procent av AI-texterna och felaktigt flaggade 9 procent av de mänskliga.</li>
+      <li><strong>Människor som skriver på ett andraspråk kan drabbas.</strong> I en
+          <a href="https://www.cell.com/patterns/fulltext/S2666-3899(23)00130-7" rel="noopener">studie från 2023</a>
+          flaggade sju detektorer i snitt 61 procent av 91 engelska språkprovsuppsatser som AI-text,
+          trots att människor skrivit dem. Urvalet var litet, och en
+          <a href="https://arxiv.org/abs/2602.05769" rel="noopener">senare studie</a>
+          fann ingen sådan systematisk snedvridning. Frågan är alltså inte avgjord.</li>
+      <li><strong>Nyare verktyg är bättre, men inte bevis.</strong> Språkforskaren Robert Östling vid
+          Stockholms universitet
+          <a href="https://www.su.se/enheter/institutionen-for-lingvistik/nyheter/nyhetsartiklar/2026-10-23-robert-ostling-i-svt-ai-detektorer-har-oftast-ratt" rel="noopener">sa till SVT i oktober 2026</a>:
+          ”De har ju oftast rätt, men det är tveksamt om det skulle hålla i en domstol.”</li>
+      <li><strong>Lärosätena är försiktiga.</strong> I en
+          <a href="https://www.uka.se/download/18.721b8801199c8e481883b/1760445596301/Kartl%C3%A4ggning%20av%20%C3%A5tg%C3%A4rder%20mot%20fusk%20vid%20distansstudier.pdf" rel="noopener">kartläggning från Universitetskanslersämbetet</a>
+          framgår att många är skeptiska till om dagens detektorer uppfyller kraven på rättssäkerhet.</li>
+    </ul>
+
+    <h3>Varför ”oftast rätt” inte räcker</h3>
+    <p>
+      Ett enkelt räkneexempel visar problemet. Siffrorna är påhittade, men generösa mot verktyget.
+      Säg att en detektor hittar 90 procent av AI-texterna och bara flaggar 2 procent av de mänskliga.
+      Du kör 1 000 inlämningar genom den.
+    </p>
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Andel skrivna med AI</th><th>Rätt flaggade</th><th>Fel flaggade</th><th>Oskyldiga bland de flaggade</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>10 % (100 texter)</td>
+            <td>90</td>
+            <td>18</td>
+            <td>Ungefär 1 av 6</td>
+          </tr>
+          <tr>
+            <td>2 % (20 texter)</td>
+            <td>18</td>
+            <td>20</td>
+            <td>Ungefär hälften</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p>
+      Ju färre som faktiskt fuskat, desto större andel av de flaggade är oskyldiga, trots att verktyget
+      är lika bra. Ett resultat på 90 procent betyder inte heller att det är 90 procents chans att
+      texten är AI-skriven. Det är verktygets säkerhet i sin egen bedömning, och den kan vara fel.
+    </p>
+
+    <h2>Fungerar AI-detektorer på svenska?</h2>
+    <p>
+      Många söker efter en AI-detektor på svenska. Att gränssnittet är på svenska säger dock ingenting
+      om hur väl verktyget är tränat på svensk text. Mycket av forskningen och testerna gäller
+      engelska, och OpenAI varnade redan för sin egen detektor att den var särskilt opålitlig på andra
+      språk och på texter under 1 000 tecken. Har du hittat ett verktyg kan du göra så här:
+    </p>
+    <ol>
+      <li><strong>Läs vad tillverkaren säger om svenska.</strong> Saknas siffror för svenska vet du inte hur väl det fungerar.</li>
+      <li><strong>Testa med facit.</strong> Kör några texter du vet är mänskliga, gärna äldre än 2022,
+          och några du själv har låtit en AI skriva.</li>
+      <li><strong>Prova en kort och en lång text.</strong> Korta texter ger för lite att bedöma.</li>
+    </ol>
+    <p>
+      Vi rankar inte verktyg som GPTZero, Turnitin och liknande mot varandra. De ändras ofta, och den
+      viktiga frågan är hur du tolkar svaret, inte vilket märke som gav det.
+    </p>
+
+    <h2>Texter som ofta blir fel bedömda</h2>
+    <ul>
+      <li><strong>Formell och mallad text,</strong> som juridiska avsnitt, sammanfattningar och rapporter med fast struktur.</li>
+      <li><strong>Text på ett andraspråk,</strong> där ordförrådet kan vara mindre och meningarna mer förutsägbara.</li>
+      <li><strong>Korta texter,</strong> som ger verktyget för lite underlag.</li>
+      <li><strong>Text som bearbetats med stavnings- eller översättningsverktyg,</strong> eftersom ytan då slätas ut.</li>
+      <li><strong>Blandade texter.</strong> Har någon skrivit själv och låtit AI korta ner texten saknar frågan ”AI eller människa?” ett enkelt svar.</li>
+    </ul>
+
+    <h2>Om du är lärare</h2>
+    <p>
+      Skolverket
+      <a href="https://www.skolverket.se/kompetensutveckling/stod-i-arbetet/rad-om-ai-chattbottar-och-liknande-verktyg" rel="noopener">avråder från att använda inlämningsuppgifter som betygsunderlag utan kontroll</a>.
+      Det flyttar arbetet från att upptäcka AI till att ta reda på vad eleven kan.
+    </p>
+    <ul>
+      <li><strong>Var tydlig i förväg.</strong> Säg vad som är tillåtet på just den här uppgiften. ”Inget AI” och ”AI för idéer men inte för text” är olika regler.</li>
+      <li><strong>Följ processen.</strong> Utkast, anteckningar och korta avstämningar säger mer än en färdig text.</li>
+      <li><strong>Prata med eleven.</strong> Den som skrivit en text kan oftast förklara sina val och resonera vidare.</li>
+      <li><strong>Använd kontrollerade moment</strong> när du behöver ett säkert underlag.</li>
+      <li><strong>Mata inte in elevtexter hur som helst.</strong> En elevtext kan innehålla personuppgifter. Kontrollera vad skolan får använda. Mer om det i <a href="/risker-och-integritet/">risker och integritet</a>.</li>
+    </ul>
+
+    <h2>Om du blir anklagad</h2>
+    <p>
+      Att en detektor flaggat din text är inte samma sak som att det är bevisat att du fuskat. Stämmer
+      det inte, så gör det här:
+    </p>
+    <ol>
+      <li><strong>Be att få se underlaget.</strong> Vilket verktyg användes, vilket resultat gav det och vad mer grundas misstanken på?</li>
+      <li><strong>Samla din process.</strong> Versionshistorik i Word eller Google Docs, utkast, anteckningar och källor visar hur texten vuxit fram.</li>
+      <li><strong>Erbjud dig att förklara texten muntligt.</strong> Det är ofta det starkaste du kan göra.</li>
+      <li><strong>Ta reda på vad som gäller.</strong> På högskolor och universitet ska misstänkt fusk anmälas till rektor och kan prövas av en disciplinnämnd. Studentkåren kan ofta stödja dig. I skolan pratar du i första hand med läraren och rektorn.</li>
+    </ol>
+    <p>
+      Har du faktiskt använt AI är det bättre att säga hur. Att försöka skriva om texten så att den
+      passerar en detektor löser inget om reglerna förbjöd AI från början.
+    </p>
+
+    <h2>Vanliga frågor</h2>
+
+    <h3>Kan man lita på en AI-detektor?</h3>
+    <p>
+      Som signal, ja, särskilt på längre texter. Som bevis, nej. Ett resultat behöver alltid stödjas
+      av något annat, till exempel ett samtal eller utkast.
+    </p>
+
+    <h3>Finns det en AI-detektor för svenska?</h3>
+    <p>
+      Ja, flera verktyg tar emot svensk text. Det viktiga är om tillverkaren kan visa hur väl verktyget
+      fungerar på svenska. Testa gärna med texter där du vet svaret.
+    </p>
+
+    <h3>Vilken är den bästa AI-detektorn?</h3>
+    <p>
+      Det finns ingen oberoende och aktuell svensk topplista att luta sig mot, och vi rankar inte
+      verktyg. Ett verktyg som öppet redovisar sina felmarginaler är ett bättre val än ett som
+      lovar närmare 100 procents träffsäkerhet.
+    </p>
+
+    <h3>Är texten AI-skriven om detektorn säger 100 procent?</h3>
+    <p>
+      Inte nödvändigtvis. Siffran visar hur säker modellen är på sin egen bedömning, och även en hög
+      siffra kan vara fel.
+    </p>
+
+    <h3>Kan en AI-detektor känna igen ChatGPT specifikt?</h3>
+    <p>
+      Vissa verktyg försöker gissa modellen, men sådana svar är ännu osäkrare. En detektor har ingen
+      tillgång till vad som faktiskt skrivits i ChatGPT.
+    </p>
+
+    <h2>Källor</h2>
+    <ul>
+      <li><a href="https://www.skolverket.se/kompetensutveckling/stod-i-arbetet/rad-om-ai-chattbottar-och-liknande-verktyg" rel="noopener">Skolverket: Råd om AI, chattbottar och liknande verktyg</a></li>
+      <li><a href="https://www.uka.se/download/18.721b8801199c8e481883b/1760445596301/Kartl%C3%A4ggning%20av%20%C3%A5tg%C3%A4rder%20mot%20fusk%20vid%20distansstudier.pdf" rel="noopener">UKÄ: Kartläggning av åtgärder mot fusk vid distansstudier</a> (pdf)</li>
+      <li><a href="https://www.su.se/enheter/institutionen-for-lingvistik/nyheter/nyhetsartiklar/2026-10-23-robert-ostling-i-svt-ai-detektorer-har-oftast-ratt" rel="noopener">Stockholms universitet: Robert Östling i SVT, 23 oktober 2026</a></li>
+      <li><a href="https://www.cell.com/patterns/fulltext/S2666-3899(23)00130-7" rel="noopener">Liang m.fl. (2023): GPT detectors are biased against non-native English writers</a></li>
+      <li><a href="https://arxiv.org/abs/2602.05769" rel="noopener">Revisiting the Bias Against Non-Native Speakers in GPT Detectors (2026)</a></li>
+      <li><a href="https://searchengineland.com/openai-ai-classifier-no-longer-available-429912" rel="noopener">Search Engine Land om nedläggningen av OpenAI:s detektor (2023)</a></li>
+    </ul>
+
+    <p><a class="btn" href="/guider/">Se hela grundkursen</a></p>
+
+    <p class="updated">Publicerad och senast uppdaterad: 4 november 2026. Området förändras snabbt, så kontrollera vad som gäller på din skola eller ditt lärosäte.</p>
+
+  </div>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <p>
+      <strong>aiguide.se</strong>. Gratis grundkurs i AI, oberoende och utan affiliatelänkar.
+    </p>
+    <div class="foot-mark" aria-hidden="true"><img src="/assets/logo.svg" alt="" width="319" height="96"></div>
+  </div>
+</footer>
+
+</body>
+</html>
